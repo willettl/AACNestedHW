@@ -1,4 +1,13 @@
 package structures;
+
+/**
+ * Class that creates AssociativeArrays which have keys of the image location and
+ * values of the image icons. Methods to add, get both the location, directory and text
+ * 
+ * @author Lucas
+ *
+ */
+
 public class AACCategory extends Object{
   //fields
   String name;

@@ -4,6 +4,14 @@ import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.io.IOException;
 
+/**
+ * Class that creates and associtive array of category names and AACCategories for the home page
+ * of the GUI. Has methods to add, get all the catgories, get all the images, etc
+ * 
+ * @author Lucas
+ *
+ */
+
 public class AACMappings extends Object{
   //fields
   AssociativeArray <String, AACCategory> arr;
