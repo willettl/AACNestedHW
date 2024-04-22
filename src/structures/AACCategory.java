@@ -41,7 +41,7 @@ public class AACCategory extends Object{
   } // getImage()
 
   public String getText(String imageLoc) throws KeyNotFoundException {
-      return (String) this.something.get(imageLoc);
+    return (String) this.something.get(imageLoc);
   } //getText(String)
 
   public Boolean hasImage(String imageLoc){
